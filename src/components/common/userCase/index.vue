@@ -15,7 +15,7 @@ export default {
 
 <style lang="scss" scoped>
 .user-case {
-    height: 26.875rem;
+    height: 430px;
     & > div {
         float: left;
         width: 25%;

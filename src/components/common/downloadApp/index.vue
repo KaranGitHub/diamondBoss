@@ -20,26 +20,26 @@ export default {
   background-color: #86C532;
 
   .phone-img {
-    width: 10.125rem;
-    height: 12.625rem;
-    margin-left: 22.875rem;
+    width: 162px;
+    height: 202px;
+    margin-left: 368px;
     background-color: gray;
     float: left;
   }
 
   .content {
-    height: 12.625rem;    
+    height: 202px;    
     float: left;
-    margin-left: 6.25rem;
+    margin-left: 100px;
     color: #fff;
-    padding-top: 2.2625rem;
+    padding-top: 36px;
     .title {
-      font-size: 1.125rem;
+      font-size: 18px;
     }
 
     .desc {
-      font-size: .6875rem;
-      margin-bottom: 2.65rem;
+      font-size: 11px;
+      margin-bottom: 42px;
       
     }
 
@@ -47,7 +47,7 @@ export default {
       text-decoration-line: none;
       color: #86C532;
       background-color: #fff;
-      padding: .8125rem 1.5625rem;
+      padding: 13px 20px;
     }
   }
 }

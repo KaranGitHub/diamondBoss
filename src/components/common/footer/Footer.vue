@@ -20,23 +20,22 @@ export default {
 <style lang="scss" scoped>
 Footer {
     background-color: #282828;
-    padding: 2rem 0;
+    padding: 16px 0;
     
-
     img {
         float: left;
-        margin-left: 23rem;
+        margin-left: 368px;
     }
 }
 
 .contact {
     color: #fff;
-    font-size: 1rem;
+    font-size: 16px;
     float: left;
-    margin-left: 2.25rem;
-    height: 8.75rem;
+    margin-left: 36px;
+    height: 140px;
     p {
-        margin-bottom: .875rem;
+        margin-bottom: 14px;
     }
 }
 </style>

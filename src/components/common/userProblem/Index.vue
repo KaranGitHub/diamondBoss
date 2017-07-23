@@ -66,73 +66,73 @@ export default {
 <style lang="scss" scoped>
 .user-problem {
   background-color: #282828;
-  height: 31.25rem;
+  height: 500px;
 
   .title-wrap {
     color: #fff;
-    padding-top: 2.9375rem;
+    padding-top: 25px;
     text-align: center;
 
     .icon {
-      width: 3.125rem;
-      height: 3.125rem;
+      width: 43px;
+      height: 43px;
 
       background-color: #fff;
       border-radius: 50%;
-      padding: .87125rem;
+      padding: 8px;
       margin: 0 auto;
 
       img {
-        line-height: 3.125rem;
-        width: 1.5625rem;
-        height: 1.5625rem;
+        line-height: 43px;
+        width: 27px;
+        height: 27px;
       }
     }
 
     .title {
-      margin-top: 1.6875rem;
+      margin-top: 27px;
 
       h3 {
-        font-size: 1.25rem;
+        font-size: 20px;
         font-weight: normal;
       }
 
       p {
-        font-size: .71875rem;
+        font-size: 12px;
       }
     }
   }
 
   .swiper-container {
-    width: 83.4375rem;
+    max-width: 1335px;
     margin: 0 auto;
   }
   .swiper-slide {
-    width: 8.75rem;
-    height: 8.75rem;
+    width: 140px;
+    height: 140px;
   }
 
   .problem-content {
     color: #fff;
-    margin-top: 2rem;
+    margin-top: 16px;
     text-align: center;
   }
 
   .problem-title {
-    font-size: 1.125rem;
+    font-size: 20px;
   }
 
   .problem-desc {
-    font-size: .8125rem;
+    font-size: 13px;
   }
 
   .problem-solve {
-    margin-top: 2rem;
+    margin-top: 16px;
     color: #fff;
     text-align: center;
 
     .title {
-      font-size: .625rem;
+      font-size: 10px;
     }
   }
 }

@@ -41,14 +41,14 @@ export default {
 
 <style lang="scss" scoped>
 .banner {
-    height: 31.25rem;
+    height: 500px;
     width: 100%;
     overflow: hidden;
 }
 
 .swiper-container {
     width: 100%;
-    height: 31.25rem;
+    height: 500px;
     margin-left: auto;
     margin-right: auto;
 }
@@ -56,9 +56,8 @@ export default {
 .swiper-slide {
     text-align: center;
     font-size: 18px;
-    height: 31.25rem;
+    height: 500px;
     background: #fff;
-    /* Center slide text vertically */
     display: -webkit-box;
     display: -ms-flexbox;
     display: -webkit-flex;
