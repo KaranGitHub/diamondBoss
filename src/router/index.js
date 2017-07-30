@@ -6,6 +6,7 @@ import Home from '@/components/home/home';
 import AboutUs from '@/components/aboutUs/index';
 import Trusteeship from '@/components/common/trusteeship/index.vue';
 import ServiceAgreement from '@/components/common/serviceAgreement/index.vue';
+import Steps from '@/components/steps/index';
 
 Vue.use(Router)
 
@@ -23,8 +24,7 @@ export default new Router({
       path: '/trusteeship',
       name: 'Trusteeship',
       component: Trusteeship
-    },
-    {
+    }, {
       path: '/service-agreement',
       name: 'ServiceAgreement',
       component: ServiceAgreement
@@ -32,6 +32,10 @@ export default new Router({
       path: '/about-us',
       name: 'AboutUs',
       component: AboutUs
+    }, {
+      path: '/steps',
+      name: 'Steps',
+      component: Steps
     }
   ]
 })

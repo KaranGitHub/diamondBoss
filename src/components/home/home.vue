@@ -14,7 +14,7 @@ import zfooter from './../common/footer/index';
 import zbanner from './banner/index';
 import userproblem from './userProblem/index';
 import downloadapp from './../common/downloadApp/index';
-import usercase from './../common/userCase/index';
+import usercase from './userCase/index';
 
 export default {
   name: 'home',
