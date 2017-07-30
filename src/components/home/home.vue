@@ -3,7 +3,6 @@
     <z-header></z-header>
     <z-banner></z-banner>
     <userproblem></userproblem>
-    <!-- <download-app></download-app> -->
     <user-case></user-case>
     <z-footer></z-footer>
   </div>
@@ -13,7 +12,7 @@
 import zheader from './../common/header/index';
 import zfooter from './../common/footer/index';
 import zbanner from './banner/index';
-import userproblem from './../common/userProblem/Index';
+import userproblem from './userProblem/index';
 import downloadapp from './../common/downloadApp/index';
 import usercase from './../common/userCase/index';
 
