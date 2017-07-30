@@ -94,6 +94,8 @@
 </template>
 
 <script>
+require('./../../../util/flexible');
+
 export default {
     name: 'serviceagreemnt'
 }

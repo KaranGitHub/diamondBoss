@@ -1,5 +1,5 @@
 <script>
-import Header from './header/Header';
+import Header from './header/index';
 
 export default {
   name: 'common'
