@@ -29,13 +29,16 @@
         <div class="title">如何解决？</div>
         <img id="arrow" src="http://via.placeholder.com/40x12" />
       </div>
-      <div class="download-app clearfix">
-        <div class="phone-img"></div>
-        <div class="content">
-          <div class="title">立即下单,出门送狗</div>
-          <div class="desc">出门前打开app立刻下单,接单之后送到指定的位置即可,安心去上班！</div>
-          <a class="download-btn" href="/download">我要下载</a>
+      <div class="download-app">
+        <div class="download-app-content clearfixs">
+          <div class="phone-img"></div>
+          <div class="content">
+            <div class="title">立即下单,出门送狗</div>
+            <div class="desc">出门前打开app立刻下单,接单之后送到指定的位置即可,安心去上班！</div>
+            <a class="download-btn" href="/download">我要下载</a>
+          </div>
         </div>
+  
       </div>
     </div>
   
@@ -68,7 +71,7 @@ export default {
         autoplay: 5000,
         slidesPerView: 7,
         loop: true,
-        onAutoplay: function(e) {
+        onAutoplay: function (e) {
           console.log('changed');
           console.log(e);
         }
@@ -80,7 +83,8 @@ export default {
 
 <style lang="scss" scoped>
 .content {
-  width: 100%;
+  width: 100%; // max-width: 960px;
+  // margin: 0 auto;
   height: 100vh;
 }
 
@@ -141,7 +145,6 @@ export default {
       width: 180px;
       height: 180px;
     }
-    
   }
 
   .problem-content {
@@ -175,16 +178,15 @@ export default {
   .phone-img {
     width: 162px;
     height: 202px;
-    margin-left: 368px;
     background-color: gray;
     float: left;
   }
 
   .content {
     height: 202px;
-    float: left;
-    margin-left: 100px;
     color: #fff;
+    float: left;
+    
     padding-top: 36px;
     .title {
       font-size: 18px;
@@ -201,6 +203,11 @@ export default {
       background-color: #fff;
       padding: 13px 20px;
     }
+  }
+
+  .download-app-content {
+    max-width: 960px;
+    margin: 0 auto;
   }
 }
 </style>

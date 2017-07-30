@@ -4,13 +4,15 @@ import Hello from '@/components/Hello'
 import Alert from '@/components/Alert';
 import Home from '@/components/home/home';
 import AboutUs from '@/components/aboutUs/index';
-import Trusteeship from '@/components/common/trusteeship/index.vue';
-import ServiceAgreement from '@/components/common/serviceAgreement/index.vue';
+import Trusteeship from '@/components/common/trusteeship/index';
+import ServiceAgreement from '@/components/common/serviceAgreement/index';
 import Steps from '@/components/steps/index';
+import Download from '@/components/Download/index';
 
 Vue.use(Router)
 
 export default new Router({
+  mode: 'history',
   routes: [
     {
       path: '/',
@@ -36,6 +38,10 @@ export default new Router({
       path: '/steps',
       name: 'Steps',
       component: Steps
+    }, {
+      path: '/download',
+      name: 'Download',
+      component: Download
     }
   ]
 })

@@ -13,7 +13,6 @@ import zheader from './../common/header/index';
 import zfooter from './../common/footer/index';
 import zbanner from './banner/index';
 import userproblem from './userProblem/index';
-import downloadapp from './../common/downloadApp/index';
 import usercase from './userCase/index';
 
 export default {
@@ -23,7 +22,6 @@ export default {
     'z-footer': zfooter,
     'z-banner': zbanner,
     'userproblem': userproblem,
-    'download-app': downloadapp,
     'user-case': usercase
   }
 }
