@@ -97,7 +97,10 @@
 require('./../../../util/flexible');
 
 export default {
-    name: 'serviceagreemnt'
+    name: 'serviceagreemnt',
+    data: function() {
+        document.title = '服务协议'
+    }
 }
 </script>
 

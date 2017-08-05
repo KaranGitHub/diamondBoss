@@ -151,7 +151,10 @@
 <script>
 // require('./../../../util/flexible.js');
 export default {
-    name: 'trusteeship'
+    name: 'trusteeship',
+    data: function() {
+        document.title = '托管协议'
+    }
 }
 </script>
 
